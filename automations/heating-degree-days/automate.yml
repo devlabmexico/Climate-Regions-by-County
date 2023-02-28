@@ -1,9 +1,8 @@
 crosscompute: 0.9.3
 
-name: Climate Regions
+name: Degree Days
 description: Improve health, safety, quality of life in our communities
 version: 0.1.0
-
 
 input:
   variables:
@@ -13,17 +12,24 @@ input:
     - id: longitude
       view: number
       path: variables.dictionary
-
+    - id: cost
+      view: number
+      path: variables.dictionary
 
 output:
   variables:
     - id: climate_region
-      view: string
-      path: variables.dictionary
-    - id: summary
       view: json
       path: variables.dictionary
-  
+    - id: cost_chart
+      view: image
+      path: cost_chart.png
+
+environment:
+  packages:
+    - id: matplotlib
+      manager: pip
+      
 batches:
   - folder: batches/standard
 
