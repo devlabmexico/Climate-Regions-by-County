@@ -1,9 +1,9 @@
-crosscompute: 0.9.3
+---
+crosscompute: 0.9.4
 
 name: Climate Regions
-description: Improve health, safety, quality of life in our communities
+description: Guess climate region given longitude and latitude
 version: 0.1.0
-
 
 input:
   variables:
@@ -21,9 +21,9 @@ output:
       view: string
       path: variables.dictionary
     - id: summary
-      view: json
+      view: text
       path: variables.dictionary
-  
+
 batches:
   - folder: batches/standard
 

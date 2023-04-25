@@ -1,7 +1,8 @@
-crosscompute: 0.9.3
+---
+crosscompute: 0.9.4
 
 name: Degree Days
-description: Improve health, safety, quality of life in our communities
+description: Analyze degree days given longitude and latitude
 version: 0.1.0
 
 input:
@@ -18,8 +19,8 @@ input:
 
 output:
   variables:
-    - id: climate_region
-      view: json
+    - id: summary
+      view: text
       path: variables.dictionary
     - id: cost_chart
       view: image
@@ -29,7 +30,7 @@ environment:
   packages:
     - id: matplotlib
       manager: pip
-      
+
 batches:
   - folder: batches/standard
 
