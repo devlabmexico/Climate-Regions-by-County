@@ -1,6 +1,7 @@
-crosscompute: 0.9.3
+---
+crosscompute: 0.9.4
 
-name: Wet bulb calculator
+name: Wet Bulb Calculator
 description: Calculate wet bulb based on temperature and relative humidity
 version: 0.1.0
 
@@ -15,10 +16,10 @@ input:
 
 output:
   variables:
-    - id: wetbulb
+    - id: wet_bulb
       view: string
       path: variables.dictionary
-  
+
 batches:
   - folder: batches/standard
 
