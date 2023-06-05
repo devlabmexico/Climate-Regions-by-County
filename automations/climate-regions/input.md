@@ -26,4 +26,4 @@ Once processed, the Climate Regions tool will provide you with 'climate_region' 
 ## Exploring Different Climate Regions:
 Feel free to run multiple locations and compare their climate regions. Simply input a new set of latitude and longitude, hit "Continue", and the tool will generate fresh outputs.
 
-Support: Need assistance or have questions about Climate Regions or any of our other tools? Our dedicated support team is ready to help. Reach out to us at [support@crosscompute.com](mailto:support@crosscompute.com). For more tools related to climate and geography, visit us at [crosscompute.net](www.crosscompute.net).
+Support: Need assistance or have questions about Climate Regions or any of our other tools? Our dedicated support team is ready to help. Reach out to us at [support+automations@crosscompute.com](mailto:support+automations@crosscompute.com). For more tools related to climate and geography, visit us at [crosscompute.net](www.crosscompute.net).
