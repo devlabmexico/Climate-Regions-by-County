@@ -13,6 +13,8 @@ input:
     - id: longitude
       view: number
       path: variables.dictionary
+  templates:
+    - path: input.md
 
 
 output:
