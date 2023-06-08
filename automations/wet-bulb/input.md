@@ -17,10 +17,10 @@ On the main screen of the Wet Bulb Calculator, you'll find two input fields: 'Te
 - Relative Humidity: Enter the relative humidity in this field. It's a measure of the amount of moisture in the air compared to the maximum amount the air could hold at the given temperature, expressed as a percentage.
 
 ### Submit your Inputs
-Once you've entered the values, click on the 'Continue' button. Our tool will process the inputs, running calculations in the back-end to determine the wet bulb temperature.
+Once you've entered the values, click the 'Continue' button. Our tool will process the inputs, running calculations in the back-end to determine the wet bulb temperature.
 
 ### Understand the Output
-In the next page the tool will return the wet bulb temperature.
+In the next page, the tool will return the wet bulb temperature.
 
 The wet bulb temperature is the lowest temperature that can be reached by the evaporation of water only. It's a key parameter used in many applications, such as meteorology, HVAC system design, and more. Again, the unit of this output will be consistent with the unit you used for the input temperature.
 
