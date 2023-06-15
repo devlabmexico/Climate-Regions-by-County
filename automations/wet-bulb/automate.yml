@@ -13,6 +13,8 @@ input:
     - id: relative_humidity
       view: number
       path: variables.dictionary
+  templates:
+    - path: input.md
 
 output:
   variables:
