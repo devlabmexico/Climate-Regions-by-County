@@ -16,6 +16,8 @@ input:
     - id: cost
       view: number
       path: variables.dictionary
+  templates:
+    - path: input.md
 
 output:
   variables:
@@ -25,6 +27,8 @@ output:
     - id: cost_chart
       view: image
       path: cost_chart.png
+  templates:
+    - path: output.md
 
 environment:
   packages:
